@@ -14,7 +14,7 @@
     img {
       display: block;
       margin: 8px auto;
-      width: 24px;
+      width: 44px;
       height: auto;
 
       &.sub-logo {
@@ -81,6 +81,11 @@
     a.about-link {
       &:after {
         content: 'ABOUT';
+      }
+    }
+    a.education-link {
+      &:after {
+        content: 'EDUCATION';
       }
     }
 
